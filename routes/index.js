@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const upload = require('../upload');
-const Photo = require('../models/photos');
+const Photo = require('../Models/photos');
 
 // Home page router
 router.get('/', (req,res)=>{
